@@ -26,7 +26,7 @@ li{
     color: #F5F5F5;
     margin-right: 51px;
 }
-button{
+.header_button{
     font-size: 20px;
     padding: 8px 16px;
     vertical-align: middle;
@@ -39,7 +39,8 @@ button{
 
 /* article starts here */
 
-article{
+article,
+.article2{
     margin-top: 200px;
     margin-inline: auto;
     text-align: center;
@@ -60,8 +61,125 @@ article{
     font-weight: 400;
     text-align: justify;
     color: #656565;
+
 }
 .paragraph1{
     margin-bottom: 52px ;
 }
 /* article ends here */
+
+/* Section starts here */
+section{
+    width: 1440px;
+    background-color: #C2F3EE;
+    padding: 80px 130px;
+    margin-top: 225px;
+    margin-inline: auto;
+}
+.sect1{
+    display: inline-block;
+    margin-left: 100px;
+    width: 457px;
+    vertical-align: top
+}
+.section_header1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #272727;
+    margin-bottom: 27px;
+}
+.paragraph3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #515151;
+    margin-bottom: 45px;
+    text-align: left;
+}
+.nature{
+    vertical-align: middle;
+}
+.section_button{
+    padding: 11px 16px;
+    color: #FFFFFF;
+    background-color: #2A9D8F;
+}
+/* Section ends here */
+/* Article 2 starts here */
+.article2{
+    padding-inline: 130px;
+    margin-top: 175px;
+}
+.article2_header{
+    color: #4D4D4D;
+    font-size:48px;
+    font-weight: 500;
+    margin-bottom: 54px;
+    text-align: center;
+}
+.paragraph_img1,
+.paragraph_img2{
+    display: inline-block;
+    text-align: start;
+}
+
+.paragraph_img2{
+    margin-left: 20px;
+}
+.nature2,
+.nature1{
+    width: 440px;
+}
+.paragraph4,
+.paragraph5{
+    font-size: 24px;
+    font-weight: 400;
+    color: #535353;
+    margin-top: 32px;
+}
+/* Article 2 ends here */
+
+/* footer starts here */
+footer{
+    margin-top: 200px;
+    width: 1440px;
+    margin-inline: auto;
+    background-color: #2A9D8F;
+    padding: 90px 130px;
+}
+.Posts,
+.Programs,
+.Support{
+    display: inline-block;
+    vertical-align: top;
+}
+.Posts_1,
+.Support_1,
+.Program_1
+{
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+.Posts{
+    margin-left: 630px;
+}
+.logo2{
+    vertical-align: top;
+}
+.Programs{
+    margin-inline: 50px;
+}
+
+.Posts{
+    width: 60px;
+}
+.Programs{
+    width: 140px;
+}
+.Support{
+    width: 140px;
+}
+.mid{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
