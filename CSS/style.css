@@ -25,6 +25,7 @@ li{
 .navigation{
     color: #F5F5F5;
     margin-right: 51px;
+    font-family: 'Nerko One', cursive;
 }
 .header_button{
     font-size: 20px;
@@ -34,40 +35,39 @@ li{
     background-color: #FFFFFF;
     border: none;
     margin-left: 200px;
+    font-family: 'Poppins', sans-serif;
 }
 /* Header ends here */
-
 /* article starts here */
-
 article,
 .article2{
     margin-top: 200px;
     margin-inline: auto;
     text-align: center;
     padding-inline: 330px;
+    width: 1440px;
 }
-
 .Kami{
     font-size: 48px;
     font-weight: 500;
     color: #4D4D4D;
     display: inline-block;
     margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
 }
-
 .paragraph1,
 .paragraph2 {
     font-size: 20px;
     font-weight: 400;
     text-align: justify;
     color: #656565;
+    font-family: 'Nerko One', cursive;
 
 }
 .paragraph1{
     margin-bottom: 52px ;
 }
 /* article ends here */
-
 /* Section starts here */
 section{
     width: 1440px;
@@ -87,6 +87,7 @@ section{
     font-weight: 500;
     color: #272727;
     margin-bottom: 27px;
+    font-family: 'Poppins', sans-serif;
 }
 .paragraph3{
     font-size: 18px;
@@ -94,6 +95,8 @@ section{
     color: #515151;
     margin-bottom: 45px;
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
 }
 .nature{
     vertical-align: middle;
@@ -102,6 +105,10 @@ section{
     padding: 11px 16px;
     color: #FFFFFF;
     background-color: #2A9D8F;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+
 }
 /* Section ends here */
 /* Article 2 starts here */
@@ -115,13 +122,13 @@ section{
     font-weight: 500;
     margin-bottom: 54px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .paragraph_img1,
 .paragraph_img2{
     display: inline-block;
     text-align: start;
 }
-
 .paragraph_img2{
     margin-left: 20px;
 }
@@ -131,13 +138,13 @@ section{
 }
 .paragraph4,
 .paragraph5{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     color: #535353;
     margin-top: 32px;
+    font-family: 'Poppins', sans-serif;
 }
 /* Article 2 ends here */
-
 /* footer starts here */
 footer{
     margin-top: 200px;
@@ -159,6 +166,7 @@ footer{
     font-weight: 500;
     color: #FFFFFF;
     margin-bottom: 21px;
+    font-family: 'Poppins', sans-serif;
 }
 .Posts{
     margin-left: 630px;
