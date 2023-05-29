@@ -79,8 +79,8 @@ section{
 .sect1{
     display: inline-block;
     margin-left: 100px;
-    width: 457px;
-    vertical-align: top
+    vertical-align: top;
+    width: 420px;
 }
 .section_header1{
     font-size: 32px;
@@ -88,6 +88,7 @@ section{
     color: #272727;
     margin-bottom: 27px;
     font-family: 'Poppins', sans-serif;
+    line-height: 48px;
 }
 .paragraph3{
     font-size: 18px;
@@ -97,9 +98,11 @@ section{
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
+    line-height: 27px;
 }
 .nature{
-    vertical-align: middle;
+    vertical-align: top;
+
 }
 .section_button{
     padding: 11px 16px;
@@ -159,9 +162,7 @@ footer{
     display: inline-block;
     vertical-align: top;
 }
-.Posts_1,
-.Support_1,
-.Program_1
+.li_header
 {
     font-weight: 500;
     color: #FFFFFF;
@@ -175,19 +176,19 @@ footer{
     vertical-align: top;
 }
 .Programs{
-    margin-inline: 50px;
+    margin-inline: 40px;
 }
 
-.Posts{
-    width: 60px;
-}
-.Programs{
-    width: 140px;
-}
-.Support{
-    width: 140px;
-}
 .mid{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+.li_header,
+.test,
+.mid{
+    display: block;
+}
+a{
+    color:#FFFFFF
+}
+/* Footer ends here */
