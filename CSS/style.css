@@ -36,3 +36,32 @@ button{
     margin-left: 200px;
 }
 /* Header ends here */
+
+/* article starts here */
+
+article{
+    margin-top: 200px;
+    margin-inline: auto;
+    text-align: center;
+    padding-inline: 330px;
+}
+
+.Kami{
+    font-size: 48px;
+    font-weight: 500;
+    color: #4D4D4D;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.paragraph1,
+.paragraph2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: #656565;
+}
+.paragraph1{
+    margin-bottom: 52px ;
+}
+/* article ends here */
